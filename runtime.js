@@ -56,12 +56,44 @@ const extraLargeArray = getSizedArray(100000);
 // doublerInsert(extraLargeArray);
 // let resultsInsert = perf.stop();
 
+// perf.start();
+// doublerAppend(tinyArray)
+// let resultsAppend = perf.stop()
+
+// perf.start();
+// doublerInsert(tinyArray)
+// let resultsInsert = perf.stop()
+
+// perf.start();
+// doublerAppend(smallArray)
+// let resultsAppend = perf.stop()
+
+// perf.start();
+// doublerInsert(smallArray)
+// let resultsInsert = perf.stop()
+
+// perf.start();
+// doublerAppend(mediumArray)
+// let resultsAppend = perf.stop()
+
+// perf.start();
+// doublerInsert(mediumArray)
+// let resultsInsert = perf.stop()
+
+// perf.start();
+// doublerAppend(largeArray)
+// let resultsAppend = perf.stop()
+
+// perf.start();
+// doublerInsert(largeArray)
+// let resultsInsert = perf.stop()
+
 perf.start();
-doublerAppend(tinyArray)
+doublerAppend(extraLargeArray)
 let resultsAppend = perf.stop()
 
 perf.start();
-doublerInsert(tinyArray)
+doublerInsert(extraLargeArray)
 let resultsInsert = perf.stop()
 
 console.log('Results for the smallArray');
